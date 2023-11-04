@@ -28,4 +28,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/Dashibo.git
+   git clone https://github.com/Jakker17/Dashibo.git
