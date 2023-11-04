@@ -29,3 +29,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
    ```bash
    git clone https://github.com/Jakker17/Dashibo.git
+
+## Support
+
+For any questions or issues, please contact our team at p23005@student.osu.cz
