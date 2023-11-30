@@ -1,9 +1,10 @@
 package com.dashibo.be.auth.service;
 
-import com.dashibo.be.auth.dao.UsersDao;
-import com.dashibo.be.auth.model.CustomUser;
+import com.dashibo.be.common.dao.UserDao;
+import com.dashibo.be.common.model.CustomUser;
 import com.dashibo.be.auth.model.RegisterRequest;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.stereotype.Service;
@@ -13,7 +14,8 @@ import java.util.List;
 @Service
 @RequiredArgsConstructor
 public class RegisterService {
-    private final UsersDao userDao;
+
+    private final UserDao userDao;
 
     public HttpStatus registerUser(RegisterRequest request)
     {

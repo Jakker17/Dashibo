@@ -1,4 +1,4 @@
-package com.dashibo.be.auth.model;
+package com.dashibo.be.common.model;
 
 import jakarta.persistence.Id;
 import lombok.Data;

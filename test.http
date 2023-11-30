@@ -10,3 +10,30 @@ Content-Type: application/json
 
 ###
 GET http://localhost:8080/api/v1/auth/all-users
+
+
+POST http://localhost:8080/api/v1/auth/authenticate
+Content-Type: application/json
+
+{
+        "username": "admin",
+        "password": "password"
+}
+
+###
+POST http://localhost:8080/api/v1/auth/register
+Content-Type: application/json
+
+{
+  "username": "martin",
+  "password": "password",
+  "email": "mjuros97@gmail.com",
+  "name": "Martin Juros"
+}
+
+
+###
+GET http://localhost:8080/api/v1/test/test
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsIkFjYy1leHBpcmVkIjp0cnVlLCJBdXRob3JpdGllcyI6W3siYXV0aG9yaXR5IjoiUk9MRV9BRE1JTiJ9XSwiZXhwIjoxNjg1MjY3NjEyLCJpYXQiOjE2ODUyNjY2MTJ9.1O_G1Uz85QOVvNhBf-O2mZoT9vFdg4ZUHHDOHy81t1Y
+
